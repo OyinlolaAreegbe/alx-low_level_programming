@@ -12,12 +12,12 @@ int main(void)
 	int num;
 	char low;
 
-	for (mum = '0'; num <= '9'; num++)
+	for (num = '0'; num <= '9'; num++)
 		putchar(num);
 	for (low = 'a'; low <= 'f'; low++)
 		putchar(low);
 
-			putchar('\n')
+			putchar('\n');
 
 			return (0);
 }
