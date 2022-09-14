@@ -3,10 +3,11 @@
 /**
  * _abs - computes the absolute value of an interger
  *
- * Return: Always 0 (Success)
+ *@n: value being tested
+ *Return: Always 0 (Success)
  */
 
-int _abs(int)
+int _abs(int n)
 {
 
 		if (n < 0)
