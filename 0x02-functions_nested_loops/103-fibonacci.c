@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	unsigned long i = 0; j = 1, fibsum;
+	unsigned long i = 0; j = 1; fibsum;
 	float tot_sum;
 
 	while (1)
@@ -26,7 +26,7 @@ int main(void)
 			i = j;
 			j = fibsum;
 	}
-	printf("%.0f\n", tot_sum0;
+	printf("%.0f\n", tot_sum);
 
 			return (0);
 
