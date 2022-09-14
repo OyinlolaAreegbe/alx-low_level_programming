@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - lowercase character c is checked
+ * _islower - lowercase character @c is checked
  *
  *Return: Always 0 (Success)
  */
