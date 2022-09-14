@@ -2,7 +2,7 @@
 
 /**
  * _islower - lowercase character 
- * @c: is checked
+ *@c: is checked
  *
  *Return: Always 0 (Success)
  */
