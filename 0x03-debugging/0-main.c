@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * main - positive_or_negative
- * checks if integer is positive or negative
+ * main - tests function that prints if integer is positive or negative
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 
 int main(void)
