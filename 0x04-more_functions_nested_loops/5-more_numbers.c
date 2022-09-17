@@ -13,7 +13,7 @@ void more_numbers(void)
 
 	while (i < 10)
 	{
-		for (n = 0; n <= 14; n++)
+		for (n = 0; n < 15; n++)
 		{
 			c = n;
 			if (n > 9)
@@ -22,7 +22,11 @@ void more_numbers(void)
 				c = n % 10;
 			}
 
-			_putchar('\n');
+			_putchar('0' + c);
+
+		}
+	
+		_putchar('\n');
 			i++;
 		}
 
