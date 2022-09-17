@@ -2,40 +2,41 @@
 
 /**
  * print_number - prints a number
- * @n: numbers to be printed
+ * @n: number to be printed
  *
  * Return: void
  */
 
 void print_number(int n)
 {
-	int i = 1, j = 0, k = 0;
+	unsigned int i, j, k;
 
 	if (n < 0)
 	{
-		_putchar('-');
-		n = -n;
+		_putchar(45);
+		i = n * -1;
 
 	}
 
-	while (n / i != 0)
+	else
 	{
-		i *= 10;
-		j++;
+		i = n;
 	}
-	i = i / 10;
 
-	while (k < j)
+	j = i;
+	k = 1;
+
+
+	while (j > 9)
 	{
-		_putchar('0' + n / i);
-		n = n - (n / i) * i;
-		i = i / 10;
-		k++;
+		j /= 10;
+		k *= 10;
 	}
 
-	if (j == 0)
-		_putchar('0' + n);
-
+	for (; k >= 1; k /= 10)
+	{
+		_putchar(((i / k) % 10) + 48);
+	}
 }
 
 
